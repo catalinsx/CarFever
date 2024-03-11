@@ -1,0 +1,91 @@
+﻿@model Car
+
+<h2>Add Car</h2>
+
+<form asp-action="AddCar" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Brand">Brand</label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Model">Model</label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ShortDescription">Short Description</label>
+        <input asp-for="ShortDescription" class="form-control" />
+        <span asp-validation-for="ShortDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LongDescription">Long Description</label>
+        <textarea asp-for="LongDescription" class="form-control"></textarea>
+        <span asp-validation-for="LongDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="yearProduction">Year Production</label>
+        <input asp-for="yearProduction" class="form-control" />
+        <span asp-validation-for="yearProduction" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="horsePower">Horsepower</label>
+        <input asp-for="horsePower" class="form-control" />
+        <span asp-validation-for="horsePower" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="newtonMetters">Newton Meters</label>
+        <input asp-for="newtonMetters" class="form-control" />
+        <span asp-validation-for="newtonMetters" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="engineCapacity">Engine Capacity</label>
+        <input asp-for="engineCapacity" class="form-control" />
+        <span asp-validation-for="engineCapacity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="fuelType">Fuel Type</label>
+        <input asp-for="fuelType" class="form-control" />
+        <span asp-validation-for="fuelType" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="gearBox">Gearbox</label>
+        <input asp-for="gearBox" class="form-control" />
+        <span asp-validation-for="gearBox" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageUrl">Image URL</label>
+        <input asp-for="ImageUrl" class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageThumbnailUrl">Image Thumbnail URL</label>
+        <input asp-for="ImageThumbnailUrl" class="form-control" />
+        <span asp-validation-for="ImageThumbnailUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Car</button>
+</form>

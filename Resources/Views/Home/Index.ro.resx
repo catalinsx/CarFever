@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="As we look ahead, autonomous vehicles and artificial intelligence are poised to redefine the concept of driving. Imagine a world where cars navigate themselves, communicate with each other, and ensure safer roads for everyone." xml:space="preserve">
+    <value>Pe măsură ce privim în viitor, vehiculele autonome și inteligența artificială sunt gata să redefinească conceptul de conducere. Imaginați-vă o lume în care mașinile se navighează singure, comunică între ele și asigură drumuri mai sigure pentru toată lumea.</value>
+  </data>
+  <data name="Dive into the Fascinating Details of Car History and Innovation." xml:space="preserve">
+    <value>Scufundați-vă în detaliile fascinante ale istoriei și inovației auto.</value>
+  </data>
+  <data name="Explore the World of Automobiles" xml:space="preserve">
+    <value>Exploreaza lumea automobilelor</value>
+  </data>
+  <data name="Modern cars are equipped with advanced computer systems that control everything from engine performance to entertainment and navigation. Electric and hybrid vehicles are becoming increasingly popular, paving the way for a more sustainable future." xml:space="preserve">
+    <value>Mașinile moderne sunt echipate cu sisteme informatice avansate care controlează totul, de la performanța motorului până la divertisment și navigație. Vehiculele electrice și hibride devin din ce în ce mai populare, deschizând calea către un viitor mai durabil.</value>
+  </data>
+  <data name="One of the most iconic cars in history is the Ford Model T, introduced in 1908. It revolutionized transportation by making cars affordable to the general public. This marked the beginning of the automotive era as we know it today." xml:space="preserve">
+    <value>Una dintre cele mai emblematice mașini din istorie este Ford Model T, introdus în 1908. A revoluționat transportul făcând mașinile accesibile publicului larg. Acesta a marcat începutul erei automobilelor așa cum o cunoaștem astăzi.</value>
+  </data>
+  <data name="Stay tuned for more captivating insights into the world of cars!" xml:space="preserve">
+    <value>Rămâneți pe fază pentru mai multe perspective captivante despre lumea mașinilor!</value>
+  </data>
+  <data name="The automotive industry has evolved significantly since the invention of the first automobile. From steam-powered carriages to electric vehicles, cars have come a long way in terms of technology and design." xml:space="preserve">
+    <value>Industria auto a evoluat semnificativ de la inventarea primului automobil. De la vagoane alimentate cu abur la vehicule electrice, mașinile au parcurs un drum lung în ceea ce privește tehnologia și designul.</value>
+  </data>
+  <data name="Throughout the 20th century, major innovations such as the introduction of mass production techniques, automatic transmissions, and safety features like seat belts and airbags have transformed the driving experience." xml:space="preserve">
+    <value>De-a lungul secolului XX, inovații majore, cum ar fi introducerea tehnicilor de producție în masă, transmisii automate și caracteristici de siguranță precum centurile de siguranță și airbag-urile au transformat experiența de conducere.</value>
+  </data>
+  <data name="Whether you're a car enthusiast or simply curious about the evolution of transportation, the world of automobiles offers endless stories of innovation, engineering marvels, and a glimpse into the exciting future of mobility." xml:space="preserve">
+    <value>Fie că ești un pasionat de mașini sau pur și simplu ești curios despre evoluția transporturilor, lumea automobilelor oferă povești nesfârșite de inovație, minuni inginerești și o privire asupra viitorului interesant al mobilității.</value>
+  </data>
+</root>

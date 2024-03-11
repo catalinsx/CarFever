@@ -1,0 +1,109 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-1" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="~/Images/mainlargephoto.jpg" alt="First slide" style="height: 625px; width: 800px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Porsche 911 GT3RS / Ferrari F8 Tributo </h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="~/Images/mainlargephoto2.png" alt="Second slide" style="height: 625px; width: 800px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Ferrari F8 Tributo</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="~/Images/pozanr3.jpg" alt="Third slide" style="height: 625px; width: 800px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Race car, ROTAC 2021</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="~/Images/photo4.jpg" alt="Fourth slide" style="height:625px; width: 800px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Alfa Romeo Giulia Quadrifoglio</h5>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<main>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="text-center">
+                    <h2 class="display-4">@Localizer["Explore the World of Automobiles"]</h2>
+                    <p class="lead">@Localizer["Dive into the Fascinating Details of Car History and Innovation."]</p>
+                </div>
+
+                <p>@Localizer["The automotive industry has evolved significantly since the invention of the first automobile. From steam-powered carriages to electric vehicles, cars have come a long way in terms of technology and design."]</p>
+
+                <p>@Localizer["One of the most iconic cars in history is the Ford Model T, introduced in 1908. It revolutionized transportation by making cars affordable to the general public. This marked the beginning of the automotive era as we know it today."]</p>
+
+                <p>@Localizer["Throughout the 20th century, major innovations such as the introduction of mass production techniques, automatic transmissions, and safety features like seat belts and airbags have transformed the driving experience."]</p>
+
+                <p>@Localizer["Modern cars are equipped with advanced computer systems that control everything from engine performance to entertainment and navigation. Electric and hybrid vehicles are becoming increasingly popular, paving the way for a more sustainable future."]</p>
+
+                <p>@Localizer["As we look ahead, autonomous vehicles and artificial intelligence are poised to redefine the concept of driving. Imagine a world where cars navigate themselves, communicate with each other, and ensure safer roads for everyone."]</p>
+
+                <p>@Localizer["Whether you're a car enthusiast or simply curious about the evolution of transportation, the world of automobiles offers endless stories of innovation, engineering marvels, and a glimpse into the exciting future of mobility."]</p>
+
+                <div class="text-center mt-4">
+                    <p class="lead">@Localizer["Stay tuned for more captivating insights into the world of cars!"]</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <div class="language-selector">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a class="text-white" href="/?ui-culture=en">English</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-white" href="/?ui-culture=ro">Română</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-white" href="/?ui-culture=hu">Magyar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+

@@ -1,0 +1,22 @@
+﻿@model List<FinalProject.Models.Car>
+
+@{
+    ViewData["Title"] = "Cars";
+}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var car in Model)
+    {
+        <div class="col mb-4">
+            <div class="card">
+                <img src="@car.ImageThumbnailUrl" class="card-img-top" alt="@car.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@car.Name</h5>
+                    <p class="card-text">@car.ShortDescription</p>
+                    <p class="card-text">Price: @car.Price.ToString("#,0€")</p>
+                    <a href="~/Car/Details/@car.CarId" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
